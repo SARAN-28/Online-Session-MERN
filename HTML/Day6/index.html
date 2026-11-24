@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 6</title>
+</head>
+
+<body>
+
+    <!-- Form -->
+
+    <center>
+        <h1>Students Forms</h1>
+    </center>
+
+    <fieldset>
+        <legend>Students Form</legend>
+        <form>
+
+            <div>
+                <label for="username">Name: </label>
+                <input type="text" placeholder="Enter your Name" id="username" required minlength="3" maxlength="10">
+            </div>
+
+            <div>
+                <label for="pass">Password: </label>
+                <input type="password" placeholder="Enter your Password" id="pass" required>
+            </div>
+
+            <div>
+                <label for="email">Email: </label>
+                <input type="email" placeholder="saran123@gmail.com" id="email" required readonly>
+            </div>
+
+            <div>
+                <label for="age">Age: </label>
+                <input type="number" placeholder="Enter your Age" id="age" required min="18" max="40">
+            </div>
+
+            <div>
+                <label for="address">Address: </label>
+                <textarea placeholder="Enter your Address here..." id="address" required rows="5" cols="30"></textarea>
+            </div>
+
+            <div>
+                <label for="gender">Gender: </label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </div>
+
+            <div>
+                <label for="fac">Facility: </label>
+                <input type="checkbox" name="fac">Hostel
+                <input type="checkbox" name="fac">DayScholar
+                <input type="checkbox" name="fac">College Bus
+                <input type="checkbox" name="fac">Own Vehicle
+            </div>
+
+            <div>
+                <label for="course">Select Course: </label>
+                <select name="course">
+                    <option value="">Select Course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="javascript">JavaScript</option>
+                </select>
+            </div>
+
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
+        </form>
+    </fieldset>
+</body>
+
+</html>
